@@ -208,7 +208,7 @@ function init() {
                     projectArea.innerHTML += `
                             <div class="gallery-item">
                                 <div class="project-content">
-                                    <a href="project-details.html?id=${projectData[i].id}"><img class="project-image" src="images/${projectData[i].images[0]}"></a>
+                                    <a href="project-details.html?id=${projectData[i].id}"><img class="project-image" src="images/${projectData[i].images[0].fileName}"></a>
                                     <h3>${projectData[i].title}</h3>
                                     <p>${projectData[i].subtitle}</p>
                                     <p class="text-right view-details"><a href="project-details.html?id=${projectData[i].id}" target="_blank">View Details &gt;</a></p>
