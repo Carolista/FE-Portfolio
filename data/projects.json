@@ -8,7 +8,7 @@
         "noteworthy": ["Constructed nested, indexed *ngFor loops with nuanced JS algorithms, two-way binding, and event handling to provide a robust, dynamic UX in the project details form.", "Provided custom graphic design for UI and integrated custom CSS with Bootstrap.", "Utilized a RESTful API for full stack connectivity."],
         "demo": { "type": "YouTube", "url": ""},
         "code": { "type": "GitHub", "url": "https://github.com/LaunchCodeLiftoffProjects/construction-estimator"},
-        "images": ["construction-estimator-01.png", "construction-estimator-02.png", "construction-estimator-03.png", "construction-estimator-04.png"],
+        "images": [{"fileName": "construction-estimator-01.png", "caption": "Login"}, {"fileName": "construction-estimator-02.png", "caption": "Create Project"}, {"fileName": "construction-estimator-03.png", "caption": "Select Project Details"}, {"fileName": "construction-estimator-04.png", "caption": "View Estimate"}],
         "inProgress": false
     },
     {
@@ -32,7 +32,7 @@
         "noteworthy": ["Experimented with using index-based IDs for the dozens of hexagons making up the grid.", "Used event delegation for groups of listeners instead of many separate event listeners.", "Added a dark mode and light mode toggle to change the effect of the patterns in contrast.", "Added the ability to change palettes mid-design and refresh the display of the pattern with the new colors."],
         "demo": { "type": "Try it now!", "url": "https://carolista.github.io/LC-DOM-Kaleidoscope/"},
         "code": { "type": "GitHub", "url": "https://github.com/Carolista/LC-DOM-Kaleidoscope"},
-        "images": ["kaleidoscope-01.png", "kaleidoscope-02.png", "kaleidoscope-03.png", "kaleidoscope-04.png", "kaleidoscope-05.png", "kaleidoscope-06.png"],
+        "images": [{"fileName": "kaleidoscope-01.png", "caption": "Example 1"}, {"fileName": "kaleidoscope-02.png", "caption": "Example 2"}, {"fileName": "kaleidoscope-03.png", "caption": "Example 3"}, {"fileName": "kaleidoscope-04.png", "caption": "Example 4"}, {"fileName": "kaleidoscope-05.png", "caption": "Example 5"}, {"fileName": "kaleidoscope-06.png", "caption": "Example 6"}],
         "inProgress": false
     },
     {
@@ -44,7 +44,7 @@
         "noteworthy": ["Each game begins with a randomized board and the tiles are given different colors.", "Implemented &quot;Glow Mode&quot; with subtle animation, each light having a variable pulse rate, with the color of the highlight matching the randomly assigned color of the light.", "Added ability to toggle &quot;Glow Mode&quot; on and off as desired mid-game."],
         "demo": { "type": "Try it now!", "url": "https://carolista.github.io/LC-DOM-Lights-Out/"},
         "code": { "type": "GitHub", "url": "https://github.com/Carolista/LC-DOM-Lights-Out"},
-        "images": ["lights-out-01-glow-on.png", "lights-out-02-glow-off.png", "lights-out-03-success.png"],
+        "images": [{"fileName": "lights-out-01-glow-on.png", "caption": "Glow Mode On"}, {"fileName": "lights-out-02-glow-off.png", "caption": "Glow Mode Off"}, {"fileName": "lights-out-03-success.png", "caption": "Final Score"}],
         "inProgress": false
     },
     {
@@ -56,7 +56,7 @@
         "noteworthy": ["Multiple properties of the JSON returned from the Open Trivia Database API are used to generate custom dropdown menus, allowing user to choose from a wide range of categories, type of question, and difficulty when creating a trivia quiz.", "Upon submitting the form to generate a quiz, to facilitate data binding, variable id numbers are assigned to each of the questions displayed on the page and also to the choices for possible answers.", "As the user chooses their answer, immediate feedback is given as to whether it is correct or not."],
         "demo": { "type": "Try it now!", "url": "https://carolista.github.io/LC-A5-prep-2/"},
         "code": { "type": "GitHub", "url": "https://github.com/Carolista/LC-A5-prep-2"},
-        "images": ["trivia-time.png"],
+        "images": [{"fileName": "trivia-time.png", "caption": "Example Trivia Quiz"}],
         "inProgress": false
     },
     {
@@ -68,7 +68,7 @@
         "noteworthy": ["Buttons toggle the form's visibility.", "Event delegation is used to detect buttons and trigger actions accordingly", "Entries are organized by day of the week on the page, and each entry receives a color-coded label representing the category."],
         "demo": { "type": "Try it now!", "url": "https://carolista.github.io/LC-Form-Basics/"},
         "code": { "type": "GitHub", "url": "https://github.com/Carolista/LC-Form-Basics"},
-        "images": ["this-week.png"],
+        "images": [{"fileName": "this-week.png", "caption": "Example"}],
         "inProgress": false
     },
     {
@@ -80,7 +80,7 @@
         "noteworthy": [],
         "demo": { "type": "Try it now!", "url": ""},
         "code": { "type": "GitHub", "url": ""},
-        "images": [""],
+        "images": [],
         "inProgress": true
     }
 ]

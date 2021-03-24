@@ -655,7 +655,7 @@ td.year {
   height: 100%;
   padding: 0.4em 0.8em 0.8em;
   background-color: #320d21;
-  border-bottom: 20px solid #320d21;
+  border: none;
   -webkit-transition: background-color 0.3s ease-in-out;
   transition: background-color 0.3s ease-in-out;
 }
@@ -798,6 +798,9 @@ td.year {
     max-height: max-content;
     width: 100%;
     height: 100%;
+  }
+  .nav-link {
+    border-bottom: 20px solid #320d21;
   }
   #navbar .nav-link:last-child {
     margin-right: 0;

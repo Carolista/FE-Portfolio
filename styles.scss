@@ -260,10 +260,6 @@ td {
     border-right: 10px solid $muted-accent-color;
 }
 
-// .welcome-area {
-    
-// }
-
 .welcome-content {
     position: relative;
     z-index: 4;
@@ -273,10 +269,6 @@ td {
     width: 100%;
     border: 3px $muted-accent-color solid;
 }
-
-// .synopsis {
-//     margin: 10px 0px;
-// }
 
 .right-container {
     margin: 40px;
@@ -650,7 +642,7 @@ td.year {
     height: 100%;
     padding: 0.4em 0.8em 0.8em;
     background-color: $dark-accent-color;
-    border-bottom: 20px solid $dark-accent-color;
+    border: none;
     transition: background-color 0.3s ease-in-out;
 }
 
@@ -770,6 +762,10 @@ td.year {
         max-height: max-content;
         width: 100%;
         height: 100%;
+    }
+
+    .nav-link {
+        border-bottom: 20px solid $dark-accent-color;
     }
 
     #navbar .nav-link:last-child {
