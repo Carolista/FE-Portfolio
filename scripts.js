@@ -203,7 +203,7 @@ function init() {
     function displayProjects() {
         setTimeout(function() {
             for (let i=0; i < projectData.length; i++) {
-                // TODO: create responsive gallery of all projects not in progress
+                // TODO: add second responsive gallery of all projects still in progress
                 if (! projectData[i].inProgress) {
                     projectArea.innerHTML += `
                             <div class="gallery-item">
@@ -268,21 +268,21 @@ function init() {
             // Assemble all HTML for project details
             // TODO: add translucent white block behind this content similar to other pages
             detailArea.innerHTML = `
-                <div class="project-details-col">
+                <div class="project-details-container">
                     <h1 class="project-title" class="page-title">${currentProject.title}</h1>
-                    <hr class="muted-line">
                     <h3 class="project-subtitle">${currentProject.subtitle}</h3>
-                    <p>${currentProject.desc}</p>
-                    <h4 class="project-section">Tech Stack</h4>
-                    <p>${currentProject.tech}</p>
-                    <h4 class="project-section">Noteworthy</h4>
-                    <ul>${bullets}</ul>
-                    <p class="project-links">${links}</p>
-                    <hr>
+                    <div class="details-container">
+                        <p>${currentProject.desc}</p>
+                        <h4 class="project-section">Tech Stack</h4>
+                        <p>${currentProject.tech}</p>
+                        <h4 class="project-section">Noteworthy</h4>
+                        <ul>${bullets}</ul>
+                        <p class="project-links">${links}</p>
+                    </div>
                     <p><a href='projects.html'>&lt; Back to Projects Gallery</a></p>
                 </div>
-                <div class="project-details-col">
-                    ${images}
+                <div class="project-images-container">
+                ${images}
                 </div>
             `
         }, 200); // only needs a slight delay
@@ -355,7 +355,6 @@ function init() {
     function displayEducation() {
         setTimeout(function() {
             for (let i=0; i < educationData.length; i++) {
-                // FIXME: move link to institution website to a property and redo HTML below
                 // TODO: gather images of certificates/degrees
                 edArea.innerHTML += `
                 <div class="content-item">
